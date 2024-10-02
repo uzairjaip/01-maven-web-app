@@ -32,8 +32,6 @@
       </plugin>
     </plugins>
 	  
-  </build>
-<build>
   <pluginManagement>
     <plugins>
       <plugin>

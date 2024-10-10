@@ -8,8 +8,8 @@
   <name>01-maven-web-app</name>
   <url>http://maven.apache.org</url>
   <properties>
-	<sonar.host.url>http://http://18.144.164.245:9000/</sonar.host.url>
-	<sonar.login>90a1e4538516611b1410a6c7ea081864b54b8287</sonar.login>
+	<sonar.host.url>http://54.215.242.48:9000</sonar.host.url>
+	<sonar.login>b584baea4e48b6eb742fba22de03e23af3fa7475</sonar.login>
 	
   </properties>
 
@@ -28,7 +28,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
-        <version>3.4.0</version>
+        <version>3.9.9</version>
       </plugin>
     </plugins>
 	  

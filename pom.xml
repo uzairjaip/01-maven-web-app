@@ -14,7 +14,11 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
     </dependency>
-       
+    <dependency>
+       <groupId>org.sonarsource.scanner.maven</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>4.0.0.4121</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>maven-web-app</finalName>
@@ -24,13 +28,14 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.3.1</version>
       </plugin>
-      <plugin>
+     <plugin>
     <groupId>org.sonarsource.scanner.maven</groupId>
     <artifactId>sonar-maven-plugin</artifactId>
-    <version>4.0.0.4121:sonar</version>
+    <version>4.0.0.4121</version>
 </plugin>
            
       
     </plugins>
+     
   </build>
 </project>
